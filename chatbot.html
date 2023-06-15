@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="login-container">
+        <!-- Login Page -->
+        <h1>Login</h1>
+        <input id="username" type="text" autocomplete="off" placeholder="Username" required>
+        <input id="email" type="email" autocomplete="off" placeholder="Email" required>
+        <button id="login-button">Login</button>
+        <div id="links">
+            <a href="#">Forgot Username?</a>
+            <a href="#">Forgot Password?</a>
+            <a href="#" id="signup-link">Sign Up</a>
+        </div>
+    </div>
+    <div id="signup-container" style="display: none;">
+        <!-- Signup Page -->
+        <h1>Sign Up</h1>
+        <input id="signup-username" type="text" autocomplete="off" placeholder="Username" required>
+        <input id="signup-email" type="email" autocomplete="off" placeholder="Email" required>
+        <button id="signup-button">Sign Up</button>
+    </div>
+
+    <div id="chat-container" style="display: none;">
+        <!-- Chat Page -->
+    </div>
+    
+    <div id="input-container" style="display: none;">
+        <input id="file-input" type="file" accept="image/*">
+        <input id="message-input" type="text" placeholder="Type a message...">
+        <button id="send-button">Send</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
